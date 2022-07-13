@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    
+}
+.bg{
+    background: url("./steve_jobs-wide.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* media query for background image */
+@media (max-width:768px) {
+    .bg{
+        background:url("./steve_jobs_PNG3.png") ;
+        background-position: center;
+        background-size: cover;
+    }
+    
+}
+
+.bg>p{
+    clear: left;
+}
+
+.topic1{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 4rem;
+}
+.topic1 h2{
+    margin: auto;
+    padding: 2rem;
+    font-size: 2.2rem;
+    font-family: sans-serif 'Courier New', Courier, monospace;
+}
+.topic1 p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+#legacy{
+    text-align: center;
+
+}
+
+.quotes{
+    display: inline-block;
+    background-color: rgb(28, 28, 107);
+    justify-content: center;
+    color: white;
+}
+.quotes>p{
+   padding-top: 3.45rem;
+    margin: auto;
+    width: 50%;
+    height: 20vh;
+    font-size: 1.5rem;
+}
+
+
+.quotes span{
+    padding: 1.7rem;
+    float: right;
+    font-size: 2rem;
+
+}
+
+
+.timeline> h3{  justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 1.6rem;
+    padding-top: 2rem; ;
+}
+
+.dnt{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+dl{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+dt{
+    grid-column: 2;
+    padding: 3vh 3rem 3vh 0;
+    font-weight: bold;
+}
+
+dd{
+    grid-column: 3;
+    padding: 3vh 1vh;
+}
